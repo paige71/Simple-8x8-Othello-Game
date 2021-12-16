@@ -1,0 +1,28 @@
+/*
+Project         : Simple 8x8 Othello Game
+File            : style.css
+By              : paige71 (GitHub)
+Date            : Nov 13, 2021
+Description     : This css file contains simple css styling for the Othello Game
+*/
+
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+/*body styling*/
+body{
+    background: rgba(110, 63, 191, 0.2); 
+}
+
+/*canvas styling*/
+#canvas{
+    width:700px;
+    height:700px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    filter:drop-shadow(0 0 10px #BF3F50);
+}
